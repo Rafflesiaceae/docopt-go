@@ -1,9 +1,4 @@
-docopt-go
-=========
-
-[![Build Status](https://travis-ci.org/docopt/docopt.go.svg?branch=master)](https://travis-ci.org/docopt/docopt.go)
-[![Coverage Status](https://coveralls.io/repos/github/docopt/docopt.go/badge.svg)](https://coveralls.io/github/docopt/docopt.go)
-[![GoDoc](https://godoc.org/github.com/docopt/docopt.go?status.svg)](https://godoc.org/github.com/docopt/docopt.go)
+# docopt-go
 
 An implementation of [docopt](http://docopt.org/) in the [Go](http://golang.org/) programming language.
 
@@ -41,20 +36,6 @@ Options:
 ```
 
 **docopt** parses command-line arguments based on a help message. Don't write parser code: a good help message already has all the necessary information in it.
-
-## Installation
-
-⚠ Use the alias "docopt-go". To use docopt in your Go code:
-
-```go
-import "github.com/Rafflesiaceae/docopt-go"
-```
-
-To install docopt in your `$GOPATH`:
-
-```console
-$ go get github.com/Rafflesiaceae/docopt-go
-```
 
 ## API
 
@@ -109,6 +90,6 @@ Unit testing your own usage docs is recommended, so you can be sure that for a g
 
 ## Tests
 
-All tests from the Python version are implemented and passing at [Travis CI](https://travis-ci.org/docopt/docopt-go). New language-agnostic tests have been added to [test_golang.docopt](test_golang.docopt).
+All tests from the Python version are implemented. New language-agnostic tests have been added to [test_golang.docopt](test_golang.docopt).
 
 To run tests for docopt-go, use `go test`.
