@@ -1,4 +1,5 @@
 # docopt-go
+[![CI](https://github.com/Rafflesiaceae/docopt-go/actions/workflows/ci.yml/badge.svg)](https://github.com/Rafflesiaceae/docopt-go/actions/workflows/ci.yml)
 
 An implementation of [docopt](http://docopt.org/) in the [Go](http://golang.org/) programming language.
 
